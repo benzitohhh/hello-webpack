@@ -1,6 +1,8 @@
 import * as Three from "three";
 import * as hasWebGL from "detector-webgl";
 
+console.log('greetings');
+
 if (hasWebGL) {
   const scene = new Three.Scene();
   scene.fog = new Three.Fog(0x000000, 1, 1000);
