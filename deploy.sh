@@ -21,6 +21,7 @@ rm -rf node_modules
 rm -rf package.json
 rm -rf src
 rm -rf webpack.config.js
+rm -rf deploy.sh
 
 # Commit and force push
 git add *
