@@ -1,7 +1,7 @@
 import * as Three from "three";
 import * as hasWebGL from "detector-webgl";
 
-console.log('greetings');
+console.log('and a different greeting');
 
 if (hasWebGL) {
   const scene = new Three.Scene();
